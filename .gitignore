@@ -1,0 +1,52 @@
+# Virtual Environments
+venv/
+srm/
+NLP/
+opencv_env/
+tf_env/
+*.venv
+__pycache__/
+*.py[cod]
+
+# Model files (can be regenerated)
+*.pkl
+*.keras
+*.h5
+
+# Datasets (can be regenerated or are large)
+House_Rent_Dataset.csv
+bp.csv
+House_rent_ui/dataset/
+DriverGuardAI/dataset/
+*.csv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit files
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Zip files
+*.zip
+
+# Existing repo directory
+ai_ml_Internship/
+
+# Test scripts
+test_model.py
+test*.py
+
